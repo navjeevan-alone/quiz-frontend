@@ -1,14 +1,17 @@
-const axios = require('axios');
-const fs = require('fs');
+// const axios = require('axios');
+import axios from 'axios';          
+import fs from 'fs';
+// const fs = require('fs');
 
 // Replace your API Key here
 const apiKey = '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';
 
+const user_prompt = document.querySelector("#prompt-inp");
 function createPrompt(topic) {
     return `Return a JSON object only. Create a quiz on ${topic}. Format: { quiz_title: ${topic}, quiz_id: random id with length 10, questions: [{ question: '', options: Array of 4 options, correct_answer: '' }] } // create similar 5 questions`;
 }
 
-async function generateQuiz(prompt) {
+export async function generateQuiz(prompt) {
     const headers = {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
@@ -61,9 +64,9 @@ function saveContentAsJson(contentJson) {
         }
     });
 }
-
+window.domcot
 // Example usage
-const topic = 'machine learning';
+const topic = user_prompt.value;
 const prompt = createPrompt(topic);
 generateQuiz(prompt).then((quizContentJson) => {
     if (quizContentJson) {
