@@ -1,0 +1,56 @@
+{
+    "quiz_title": "Machine Learning",
+    "quiz_id": "q92hjf03k4",
+    "questions": [
+        {
+            "question": "What is the process of training a machine learning model using example data called?",
+            "options": [
+                "Supervised learning",
+                "Unsupervised learning",
+                "Reinforcement learning",
+                "Semi-supervised learning"
+            ],
+            "correct_answer": "Supervised learning"
+        },
+        {
+            "question": "Which algorithm is commonly used for classification tasks in machine learning?",
+            "options": [
+                "Linear regression",
+                "Decision tree",
+                "Principal component analysis",
+                "K-means clustering"
+            ],
+            "correct_answer": "Decision tree"
+        },
+        {
+            "question": "What does the term 'overfitting' refer to in machine learning?",
+            "options": [
+                "Model performing well on training data but poorly on new data",
+                "Model capturing noise along with underlying patterns",
+                "Model being too simple to capture patterns",
+                "Model being biased towards certain data points"
+            ],
+            "correct_answer": "Model capturing noise along with underlying patterns"
+        },
+        {
+            "question": "Which evaluation metric is commonly used for regression problems in machine learning?",
+            "options": [
+                "Accuracy",
+                "F1 score",
+                "Root Mean Squared Error (RMSE)",
+                "Precision"
+            ],
+            "correct_answer": "Root Mean Squared Error (RMSE)"
+        },
+        {
+            "question": "What is the purpose of regularization in machine learning?",
+            "options": [
+                "To penalize large model coefficients",
+                "To increase model complexity",
+                "To reduce training time",
+                "To overfit the training data"
+            ],
+            "correct_answer": "To penalize large model coefficients"
+        }
+    ]
+}
