@@ -1,0 +1,50 @@
+{
+    "quiz_id": "abc123xyz0",
+    "total_participants": 2,
+    "average_score": 75,
+    "weak_topics": [
+        {
+            "topic": "Data Types",
+            "average_score": 60,
+            "recommended_resources": [
+                {
+                    "type": "article",
+                    "title": "Understanding Python Data Types",
+                    "url": "https://example.com/python-data-types"
+                },
+                {
+                    "type": "video",
+                    "title": "Python Data Types Explained",
+                    "url": "https://youtube.com/example-python-data-types"
+                }
+            ]
+        }
+    ],
+    "strong_topics": [
+        {
+            "topic": "Basic Syntax",
+            "average_score": 90
+        }
+    ],
+    "individual_performance": [
+        {
+            "student_id": "student01",
+            "average_score": 100,
+            "strengths": [
+                "Basic Syntax"
+            ],
+            "areas_for_improvement": [
+                "Data Types"
+            ]
+        },
+        {
+            "student_id": "student02",
+            "average_score": 50,
+            "strengths": [],
+            "areas_for_improvement": [
+                "Basic Syntax",
+                "Data Types"
+            ]
+        }
+    ]
+}

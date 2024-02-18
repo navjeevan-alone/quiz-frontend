@@ -1,0 +1,53 @@
+{
+    "student_id": "student01",
+    "quizzes": [
+        {
+            "quiz_title": "Python Basics",
+            "quiz_id": "pythonBasics123",
+            "responses": [
+                {
+                    "question": "What is Python?",
+                    "provided_answer": "A programming language",
+                    "correct_answer": "A programming language",
+                    "is_correct": true,
+                    "time_taken": 30,
+                    "level": "Beginner",
+                    "timestamp": "2024-02-18T10:00:00Z"
+                },
+                {
+                    "question": "Which of these data types is not native to Python?",
+                    "provided_answer": "Pointer",
+                    "correct_answer": "Pointer",
+                    "is_correct": true,
+                    "time_taken": 45,
+                    "level": "Intermediate",
+                    "timestamp": "2024-02-18T10:02:00Z"
+                }
+            ]
+        },
+        {
+            "quiz_title": "Advanced Python",
+            "quiz_id": "advPython456",
+            "responses": [
+                {
+                    "question": "What is a lambda function?",
+                    "provided_answer": "An anonymous function",
+                    "correct_answer": "An anonymous function",
+                    "is_correct": true,
+                    "time_taken": 40,
+                    "level": "Intermediate",
+                    "timestamp": "2024-02-19T15:00:00Z"
+                },
+                {
+                    "question": "What is list comprehension?",
+                    "provided_answer": "A concise way to create lists",
+                    "correct_answer": "A concise way to create lists",
+                    "is_correct": true,
+                    "time_taken": 35,
+                    "level": "Intermediate",
+                    "timestamp": "2024-02-19T15:03:00Z"
+                }
+            ]
+        }
+    ]
+}

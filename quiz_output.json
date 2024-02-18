@@ -1,0 +1,56 @@
+{
+    "quiz_title": "Python automation",
+    "quiz_id": "abc123xyz0",
+    "questions": [
+        {
+            "question": "What is Python?",
+            "options": [
+                "A programming language",
+                "A snake",
+                "A type of insect",
+                "A city"
+            ],
+            "correct_answer": "A programming language"
+        },
+        {
+            "question": "What is automation?",
+            "options": [
+                "Manual process",
+                "Semi-automated process",
+                "Automated process",
+                "Random process"
+            ],
+            "correct_answer": "Automated process"
+        },
+        {
+            "question": "What is a variable in Python?",
+            "options": [
+                "A constant value",
+                "A memory location",
+                "A function",
+                "An operator"
+            ],
+            "correct_answer": "A memory location"
+        },
+        {
+            "question": "What is a loop in Python?",
+            "options": [
+                "A data structure",
+                "A programming construct",
+                "A coding error",
+                "A mathematical operator"
+            ],
+            "correct_answer": "A programming construct"
+        },
+        {
+            "question": "What is a library in Python?",
+            "options": [
+                "A building filled with books",
+                "A collection of modules",
+                "A type of function",
+                "A code editor"
+            ],
+            "correct_answer": "A collection of modules"
+        }
+    ]
+}
